@@ -85,3 +85,58 @@ select {
     background-color: #fff;
     color: #000;
 }
+
+header h1 {
+    font-weight: 500;
+    padding-left: 10px;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    width: 50vw;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.lateral {
+    background-color: #D3D3D3;
+    margin-top: 20px;
+}
+
+.lateral nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.lateral nav h3 {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lateral nav input {
+    width: 220px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+.lateral nav button {
+
+}
+
+aside {
+    display: block;
+}
+
+.categories, .industries {
+
+}
