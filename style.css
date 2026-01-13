@@ -5,12 +5,83 @@
     font-family: "Roboto", sans-serif;
 }
 
+:root {
+    --cor-principal: rgb(244, 90,38);
+}
+
 header {
-    background-image: url(./img/);
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 30vh;
 }
 
 header section {
     display: flex;
-    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 70px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    border-radius: 20px;
+}
+
+#logo img {
+    width: 70px;
+}
+
+#logo h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#options {
+    width: auto;
+    border-radius: 20px;
+}
+
+#options a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 11px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#options a:hover {
+    text-decoration: underline wavy 3px var(--cor-principal);
+    transition: ease-in-out 0.8s;
+}
+
+select {
+    border: none;
+    font-size: 13px;
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+#login button {
+    margin-right: 5px;
+    width: 125px;
+    height: 40px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: #fff;
+}
+
+#login .buttonSeccound {
+    width: 90px;
+    border: solid 2px #000;
+    background-color: #fff;
+    color: #000;
 }
